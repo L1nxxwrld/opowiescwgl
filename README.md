@@ -4,4 +4,4 @@
 
 <hr>
 
-i ### [VIEW THE LICENSE](https://raw.githubusercontent.com/L1nxxwrld/opowiescwgl/main/LICENSE)
+[VIEW THE LICENSE](https://raw.githubusercontent.com/L1nxxwrld/opowiescwgl/main/LICENSE)
