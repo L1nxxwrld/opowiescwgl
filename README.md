@@ -4,4 +4,4 @@
 
 <hr>
 
-https://github.com/L1nxxwrld/opowiescwgl/main/LICENSE
+[https://github.com/L1nxxwrld/opowiescwgl/main/LICENSE](https://raw.githubusercontent.com/L1nxxwrld/opowiescwgl/main/LICENSE)
