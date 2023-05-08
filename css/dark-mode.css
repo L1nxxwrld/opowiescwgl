@@ -1,0 +1,17 @@
+
+  .dark-mode {
+    background-color: #121622;
+    transition: background-color 0.4s ease;
+  }
+
+  .dark-mode .popup-container {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.text-dark {
+  color: #000000;
+  transition: background-color 0.4s ease;
+}
+.text-white {
+  color: #ffffff;
+  transition: background-color 0.4s ease;
+}
