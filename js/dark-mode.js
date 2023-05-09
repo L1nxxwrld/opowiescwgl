@@ -1,7 +1,7 @@
 const toggleSwitch = document.querySelector('.input');
 const features = document.querySelector('.features');
 const bt1 = document.querySelector('.bt-1');
-
+const Title = document.querySelector(('.title1');
 // Check if local storage exists and set toggle switch state accordingly
 if (localStorage.getItem('mode') === 'dark') {
   toggleSwitch.checked = true;
@@ -12,6 +12,7 @@ if (localStorage.getItem('mode') === 'dark') {
   document.body.classList.add('dark-mode');
   features.classList.remove('white-bg');
   bt1.classList.remove('text-dark');
+  title1.classList.remove('text-dark');
 }
 
 // Listen for toggle switch change event
