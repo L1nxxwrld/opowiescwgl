@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opowieść Wigilijna - Charles Dickens</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/popup.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../css/animate.css">
+  <link rel="stylesheet" href="../css/media.css">
+  <!---link rel="stylesheet" href="css/hyper.css"--->
+  <link rel="stylesheet" href="../css/cards.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../index.html" class="logo"><img src="../assets/logo.png" alt="Opowieść Wigilijna logo"></a>
+      </ul>
+     
+      <ul class="navbar-links">
+<label class="hamburger">
+  <input type="checkbox">
+  <svg viewBox="0 0 32 32">
+    <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+    <path class="line" d="M7 16 27 16"></path>
+  </svg>
+</label>
+      </ul>  
+    </nav>
+  </header>
+  <main>
+    <div id="loader-overlay">
+      <div class="preloader" id="loader" style="opacity: 1;">
+        <svg version="1.1" id="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10" xml:space="preserve" style="opacity: 1; margin-left: 0px; margin-top: 0px;">
+          <g>
+            <path fill="none" d="M6.942,3.876c-0.4-0.692-1.146-1.123-1.946-1.123c-0.392,0-0.779,0.104-1.121,0.301c-1.072,0.619-1.44,1.994-0.821,3.067C3.454,6.815,4.2,7.245,5,7.245c0.392,0,0.779-0.104,1.121-0.301C6.64,6.644,7.013,6.159,7.167,5.581C7.321,5,7.243,4.396,6.942,3.876z M6.88,5.505C6.745,6.007,6.423,6.427,5.973,6.688C5.676,6.858,5.34,6.948,5,6.948c-0.695,0-1.343-0.373-1.69-0.975C2.774,5.043,3.093,3.849,4.024,3.312C4.32,3.14,4.656,3.05,4.996,3.05c0.695,0,1.342,0.374,1.69,0.975C6.946,4.476,7.015,5,6.88,5.505z"></path>
+            <path fill="none" d="M8.759,2.828C8.718,2.757,8.626,2.732,8.556,2.774L7.345,3.473c-0.07,0.041-0.094,0.132-0.053,0.202C7.319,3.723,7.368,3.75,7.419,3.75c0.025,0,0.053-0.007,0.074-0.02l1.211-0.699C8.774,2.989,8.8,2.899,8.759,2.828z"></path>
+            <path fill="none" d="M1.238,7.171c0.027,0.047,0.077,0.074,0.128,0.074c0.025,0,0.051-0.008,0.074-0.02l1.211-0.699c0.071-0.041,0.095-0.133,0.054-0.203S2.574,6.228,2.503,6.269l-1.21,0.699C1.221,7.009,1.197,7.101,1.238,7.171z"></path>
+            <path fill="none" d="M6.396,2.726c0.052,0,0.102-0.026,0.13-0.075l0.349-0.605C6.915,1.976,6.89,1.885,6.819,1.844c-0.07-0.042-0.162-0.017-0.202,0.054L6.269,2.503C6.228,2.574,6.251,2.666,6.322,2.706C6.346,2.719,6.371,2.726,6.396,2.726z"></path>
+            <path fill="none" d="M3.472,7.347L3.123,7.952c-0.041,0.07-0.017,0.162,0.054,0.203C3.2,8.169,3.226,8.175,3.25,8.175c0.052,0,0.102-0.027,0.129-0.074l0.349-0.605c0.041-0.07,0.017-0.16-0.054-0.203C3.603,7.251,3.513,7.276,3.472,7.347z"></path>
+            <path fill="none" d="M3.601,2.726c0.025,0,0.051-0.007,0.074-0.02C3.746,2.666,3.77,2.574,3.729,2.503l-0.35-0.604C3.338,1.828,3.248,1.804,3.177,1.844C3.106,1.886,3.082,1.976,3.123,2.047l0.35,0.604C3.5,2.7,3.549,2.726,3.601,2.726z"></path>
+            <path fill="none" d="M6.321,7.292c-0.07,0.043-0.094,0.133-0.054,0.203l0.351,0.605c0.026,0.047,0.076,0.074,0.127,0.074c0.025,0,0.051-0.006,0.074-0.02c0.072-0.041,0.096-0.133,0.055-0.203l-0.35-0.605C6.483,7.276,6.393,7.253,6.321,7.292z"></path>
+            <path fill="none" d="M2.202,5.146c0.082,0,0.149-0.065,0.149-0.147S2.284,4.851,2.202,4.851H1.503c-0.082,0-0.148,0.066-0.148,0.148s0.066,0.147,0.148,0.147H2.202z"></path>
+            <path fill="none" d="M8.493,4.851H7.794c-0.082,0-0.148,0.066-0.148,0.148s0.066,0.147,0.148,0.147l0,0h0.699c0.082,0,0.148-0.065,0.148-0.147S8.575,4.851,8.493,4.851L8.493,4.851z"></path>
+            <path fill="none" d="M5.146,2.203V0.805c0-0.082-0.066-0.148-0.148-0.148c-0.082,0-0.148,0.066-0.148,0.148v1.398c0,0.082,0.066,0.149,0.148,0.149C5.08,2.352,5.146,2.285,5.146,2.203z"></path>
+            <path fill="none" d="M4.85,7.796v1.396c0,0.082,0.066,0.15,0.148,0.15c0.082,0,0.148-0.068,0.148-0.15V7.796c0-0.082-0.066-0.148-0.148-0.148C4.917,7.647,4.85,7.714,4.85,7.796z"></path>
+            <path fill="none" d="M2.651,3.473L1.44,2.774C1.369,2.732,1.279,2.757,1.238,2.828C1.197,2.899,1.221,2.989,1.292,3.031l1.21,0.699c0.023,0.013,0.049,0.02,0.074,0.02c0.051,0,0.101-0.026,0.129-0.075C2.747,3.604,2.722,3.514,2.651,3.473z"></path>
+            <path fill="none" d="M8.704,6.968L7.493,6.269c-0.07-0.041-0.162-0.016-0.201,0.055c-0.041,0.07-0.018,0.162,0.053,0.203l1.211,0.699c0.023,0.012,0.049,0.02,0.074,0.02c0.051,0,0.102-0.027,0.129-0.074C8.8,7.101,8.776,7.009,8.704,6.968z"></path>
+          </g>
+        </svg>
+      
+        <svg version="1.1" id="cloud" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10" xml:space="preserve">
+          <path fill="none" d="M8.528,5.624H8.247c-0.085,0-0.156-0.068-0.156-0.154c0-0.694-0.563-1.257-1.257-1.257c-0.098,0-0.197,0.013-0.3,0.038C6.493,4.259,6.45,4.252,6.415,4.229C6.38,4.208,6.356,4.172,6.348,4.131C6.117,3.032,5.135,2.235,4.01,2.235c-1.252,0-2.297,0.979-2.379,2.23c-0.004,0.056-0.039,0.108-0.093,0.13C1.076,4.793,0.776,5.249,0.776,5.752c0,0.693,0.564,1.257,1.257,1.257h6.495c0.383,0,0.695-0.31,0.695-0.692S8.911,5.624,8.528,5.624z"></path>
+        </svg>
+      
+        <div class="rain">
+          <span class="drop"></span>
+          <span class="drop"></span>
+          <span class="drop"></span>
+          <span class="drop"></span>
+          <span class="drop"></span>
+          <span class="drop"></span>
+          <span class="drop"></span>
+          <span class="drop"></span>
+          <span class="drop"></span>
+          <span class="drop"></span>
+        </div>
+        
+        <div class="text">
+         ładowanie...
+        </div>
+      </div>
+    </div>
+    <div class="overlay">
+      <div class="overlaymgr">
+        <a class="authro" href="../index.html">Strona Głowna</a>
+        <a class="authro" href="genesis.html">Problematyka utworu</a>
+        <a class="authro" href="postacie.html">Bohaterowie</a>
+      </div>
+    </div>
+    
+      <!-- hero part start -->
+      <section class="darker hero py-5 wow fadeIn" data-wow-duration=".5s" data-wow-delay=".3s">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7">
+              <div class="hero-content text-center pb-md-5">
+                <h1 class="title1"><span>Opowieść Wigilijna Powtórzenie do E8</span></h1>
+                <p class="bt-1">Zostaną dzisiaj poruszone wszystkie kwestie związane z <span>"Opowieścią Wigilijną"</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero part end -->
+     <!-- duchy start -->
+     <section class="features py-5 wow fadeIn">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-15">
+            <div class="features-header text-center">
+              <h2 class="title1 mb-md-5 mb-4 large-text"><span>Bohaterowie</span> "Opowieści Wigilijnej"</h2>
+            </div>
+            <div class="duchy-cont">
+              <!-- 1 start -->
+              <a>
+                <div class="duchy-single wow fadeIn" data-wow-duration=".5s" data-wow-delay=".2s">
+                  <h3 class="mb-3">Ebenezer Scrooge</h3>
+                  <p>Pracownik Scrooge'a. Miał liczną rodzinę, był oj­cem sze­ścior­ga dzie­ci. Naj­młod­szy syn, mały Tim, był nie­peł­no­spraw­ny - po­ru­szał się o ku­lach i czę­sto cho­ro­wał. Crat­chi­to­wie żyli w bar­dzo skrom­nych wa­run­kach, po­nie­waż Bob otrzy­my­wał bardzo ni­ską pen­sję. Pra­co­wał w zim­nym, nie­ogrze­wa­nym po­miesz­cze­niu. Mimo wszyst­ko, cie­pło wy­po­wia­dał się o swo­im pra­co­daw­cy. Crat­chit nie tra­cił po­go­dy du­cha, cho­ciaż nie było go stać na­wet na nowe ubra­nia i wy­star­cza­ją­cą ilość je­dze­nia dla du­żej ro­dzi­ny.
+                  </p>
+                </div>
+              </a>
+              <!-- 1 end -->
+              <!-- 2 start -->
+              <a>
+                <div class="duchy-single wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                  <h3 class="mb-3">Bob Cratchit</h3>
+                  <p>O godzinie pojawia się Duch Tegorocznego Bożego Narodzenia. Duch zabiera Scrooge’a na podróż wśród ulic Londynu. Ebenzer widzi jak wszyscy ludzi, nie ważne czy biedni, czy bogaci, cieszą się ze Świąt Bożego Narodzenia. Później odwiedzają mieszkanie Boba Cratchita - pracownika Scrooge’a. Bob posiada sporą gromadkę dzieci, między innymi syna, Tima, ma on chore nogi i porusza się o kulach. Scrooge zapytał się ducha czy Tim będzie żył. Duch powiedział mu że jeśli nic się nie zmieni to chłopie wkrótce umrze. Na koniec duch ukazuje Ebenezerowi dwójkę dzieci, chłopiec symbolizuję Ciemnotę, dziewczynka Nędzę. 
+                  </p>
+                </div>
+              </a>
+              <!-- 2 end -->
+              <!-- 3 start -->
+              <a>
+                <div class="duchy-single wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
+                  <h3 class="mb-3">Jakub Marley</h3>
+                  <p>Wspólnik Scrooge'a. Ra­zem pro­wa­dzi­li kan­tor, dla­te­go na szyl­dzie wciąż wid­niał na­pis „Mar­ley & Scro­oge”. Mar­ley zmarł sie­dem lat przed ak­cją po­wie­ści. Po­dob­nie jak Ebe­ne­zer, był cał­ko­wi­cie sa­mot­ny. Nie miał ro­dzi­ny ani przy­ja­ciół. Cały ma­ją­tek za­pi­sał więc Ebe­ne­ze­ro­wi. Scro­oge był też je­dy­nym ża­łob­ni­kiem na jego po­grze­bie. Po śmier­ci, Mar­ley mu­siał od­po­ku­to­wać swo­je grze­chy. Cze­ka­ła go tu­łacz­ka po zie­mi. Jego duch był spę­ta­ny łań­cu­cha­mi, na któ­rych znaj­do­wa­ły się szka­tuł­ki z pie­niędz­mi i księ­gi ra­chun­ko­we. Po­ja­wił się w domu Scro­oge­'a, aby ostrzec go przed po­wie­la­niem wła­snych błę­dów.
+                  </p>
+                </div>
+              </a>
+              <!-- 3 end -->
+              <!-- 3 start -->
+              <a>
+                <div class="duchy-single wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
+                  <h3 class="mb-3">Tim Cratchit</h3>
+                  <p>Po­ru­szał się o ku­lach i no­sił buty or­to­pe­dycz­ne. Ro­dzi­ce nie mo­gli mu za­pew­nić od­po­wied­nie­go le­cze­nia, ze wzglę­du na niskie zarobki Boba Cratchita. Duch Przyszłości za­po­wie­dział, że chło­piec nie do­ży­je ko­lej­nych świąt. Na szczę­ście, Scro­oge oto­czył ro­dzi­nę Crat­chi­tów opie­ką, dzię­ki cze­mu los Tima mógł się od­mie­nić.
+                  </p>
+                </div>
+              </a>
+              <!-- 3 end -->
+              <!-- 3 start -->
+              <a>
+                <div class="duchy-single wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
+                  <h3 class="mb-3">Fred</h3>
+                  <p>Siostrzeniec Scro­oge­'a. Jego mat­ka była młod­szą sio­strą Ebenzera bo­ha­te­ra i zmar­ła mło­do, nie­dłu­go po ślu­bie i uro­dze­niu dziec­ka. Fred cał­ko­wi­cie róż­nił się od swo­je­go wuja pod wzglę­dem cha­rak­te­ru. Był radosny i towarzyski. Pa­mię­tał o Scro­oge­'u, ale ten nie chciał utrzy­my­wać z nim kon­tak­tu. Co roku za­pra­szał wuja na przy­ję­cie świą­tecz­ne i skła­dał mu ży­cze­nia. Wie­rzył, że Ebe­ne­zer kie­dyś się zgodzi aby przyjść.
+                  </p>
+                </div>
+              </a>
+              <!-- 3 end -->
+              <!-- 3 start -->
+              <a>
+                <div class="duchy-single wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
+                  <h3 class="mb-3">Bella</h3>
+                  <p>Narzeczona Scro­oge­'a z cza­sów mło­do­ści. Gdy się spo­ty­ka­li, była mło­dą, pięk­ną ko­bie­tą. Mu­sia­ła odejść od Eben­ze­ra, po­nie­waż ce­nił so­bie wy­łącz­nie pie­nią­dze.
+                  </p>
+                </div>
+              </a>
+              <!-- 3 end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- koniec duchów -->
+      
+  <script src="../js/script.js"></script>
+  <script src="../js/dark-mode.js"></script>
+  <script src="../js/popup.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/wow.min.js"></script>
+  <script src="j../js/bootstrap.min.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="j../js/hyper.js"></script>
+  <script src="../js/mainv.js"></script>
+</body>
+</html>
